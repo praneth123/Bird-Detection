@@ -3,6 +3,8 @@ commands to run in terminal(VScode)
 
 python -m venv env
 
+./env/Scripts/activate
+
 pip install opencv-python
 
 pip install supervision==0.3.0
