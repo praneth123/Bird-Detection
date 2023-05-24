@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "D:\hackathon\Bird detection\yolo.py", line 82, in <module>
+    main()
+  File "D:\hackathon\Bird detection\yolo.py", line 61, in main
+    labels = [
+  File "D:\hackathon\Bird detection\yolo.py", line 61, in <listcomp>
+    labels = [
+ValueError: too many values to unpack (expected 4)
+
+if the above error occurs downgrade supervision to 0.3.0
+command for downgrade= pip install supervision==0.3.0
